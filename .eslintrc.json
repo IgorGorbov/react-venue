@@ -11,6 +11,8 @@
         "jasmine": true
     },
     "rules": {
+        "object-curly-newline": 0,
+        "class-methods-use-this": 0,
         "comma-dangle": [2, "always-multiline"],
         "no-unused-vars": [1, {"extensions": [".js"]}],
         "react/prefer-stateless-function": [1, {"extensions": [".js"]}],

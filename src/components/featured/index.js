@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 
+import TimeUntil from './TimeUntil';
 import Carousel from './Carousel';
 
 const Featured = () => (
@@ -9,9 +9,8 @@ const Featured = () => (
       <div className="wrapper">Ariana Grande</div>
     </div>
     <Carousel />
+    <TimeUntil />
   </div>
 );
-
-Featured.propTypes = {};
 
 export default Featured;
